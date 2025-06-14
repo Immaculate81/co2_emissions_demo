@@ -131,7 +131,7 @@ fig_chart = px.line(emissions_long_subset, x="year", y= "emissions", color="coun
              labels = {"year": "Year",
                        "emissions": "Emissions",
                        "country": "Country"},
-             title = "Total CO_2 emissions across selected European countries from 1990 to 2022."          
+             title = "CO_2 emissions across selected European countries from 1990 to 2022."          
              )
 fig_chart.update_xaxes(showgrid=False)
 fig_chart.update_yaxes(showgrid=False)
